@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cc9bc759b02245bb9ffefffd816e4ac1" Name="Diagram1" ZoomLevel="61">
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.IllerTablosu" Width="1.5" PointX="4.125" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.sysdiagram" Width="1.5" PointX="0.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.TBL_BRANSLAR" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.TBL_VELILER" Width="1.5" PointX="0.625" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.TBL_OGRTAYARLAR" Width="2.125" PointX="8.125" PointY="3" />
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.TBL_OGRETMENLER" Width="2.375" PointX="5.625" PointY="5.625" />
+        <AssociationConnector Association="dbo.OkulOtomasyonModel.FK_TBL_OGRTAYARLAR_TBL_OGRETMENLER" />
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.TBL_OGRAYARLAR" Width="1.5" PointX="9" PointY="9.875" />
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.TBL_OGRENCILERR" Width="1.5" PointX="3.625" PointY="8.25" />
+        <AssociationConnector Association="dbo.OkulOtomasyonModel.FK_TBL_OGRAYARLAR_TBL_OGRENCILERR" />
+        <AssociationConnector Association="dbo.OkulOtomasyonModel.FK_TBL_OGRENCILERR_TBL_VELILER" />
+        <EntityTypeShape EntityType="dbo.OkulOtomasyonModel.TBL_NOTGİRİS" Width="1.875" PointX="10.125" PointY="5.625" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
