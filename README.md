@@ -101,8 +101,3 @@ Not: Proje Database-First yaklaşımı kullanır. Şemanız değiştiğinde Visu
 - EF’de Code-First veya EF Core’a göç (uzun vadeli)
 - Loglama (Serilog/NLog) ve hata raporlama
 
-### Katkı
-- Fork → Branch → PR akışı ile katkıda bulunabilirsiniz. Kod stilini ve mevcut mimariyi koruyunuz.
-
-### Lisans
-- Projenin lisansını ekleyiniz (örn. MIT). `LICENSE` dosyası oluşturulması önerilir.
